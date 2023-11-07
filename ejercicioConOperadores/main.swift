@@ -49,5 +49,23 @@ print("-------------------------------------")
 print("Ej3. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos")
 
 //  Solución del ejercicio desarrollando un algoritmo
+var num1 : Double = 1
+var num2 : Double = 2
+var suma = num1+num2
+var resta = num1-num2
+var multiplicacion = num1*num2
+var division = num1/num2
+print("suma: ",suma)
+print("resta: ",resta)
+print("multiplicación : ",multiplicacion)
+print("división: ",division)
 
 // Solución del ejercicio incluyendo la solución como parte de una función
+func operar (n1 : Double, n2 : Double) {
+    var suma = n1+n2
+    var resta = n1 - n2
+    var frase = print("suma: ",suma)
+    return (print("suma: ",suma))
+}
+
+operar(n1: 1, n2: 2)
